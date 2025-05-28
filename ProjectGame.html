@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Unique Minds</title>
+    <style>
+        body{
+           background-image: url('play.png');
+           background-attachment: fixed;
+           background-size: cover;
+           font-family:'Times New Roman', Times, serif;
+           font-size: 23px;
+           color: rgb(255, 255, 255);
+           text-align: center;
+           padding: 0px;
+           margin-top: 90px;
+
+        }
+       .letter{
+        text-align:center;
+        padding-left:7px ;
+        display: flex;
+        margin-left: 13px;
+        margin-top: 150px;
+        font-size: 40px;
+       }
+       hr{ 
+        position:fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        border: 100px;
+        margin:auto;
+        border-top: 10px solid #333;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 34;
+        overflow: hidden;
+        background-color: #333;
+        font-size: 35px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 0px 12px;
+        text-decoration: none;
+      }
+      
+      .active {
+        background-color:rgb(255, 255, 255);
+        color:rgb(154, 25, 62);
+      }
+        
+    </style>
+    <script src="letterSound.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li><a href="ProjectHomePages.html">Home</a></li>
+        <li><a class="active">Game</a></li>
+        <li><a href="ContactUs.html">Contact Us</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="ProjectAdvices.html">Advices</a></li>
+        <li><a href="ProjectVideo.html">Video</a></li>
+      </ul>
+    <h1>Alphabet Piano Game</h1>
+<div class="letter">
+    <input type="button" value="A" style="margin-left:0px;color: blue;"onclick="A()" class="letter"  />
+    <input type="button" value="B" onclick="B()" class="letter" style="color:red;" />
+    <input type="button" value="C" onclick="C()" class="letter" style="color:green;" />
+    <input type="button" value="D" onclick="D()" class="letter" style="color:rgb(255, 0, 208);" />
+    <input type="button" value="E" onclick="E()" class="letter"  style="color:rgb(206, 192, 40);"/>
+    <input type="button" value="F" onclick="F()" class="letter"  style="color:rgb(234, 78, 0);"/>
+    <input type="button" value="G" onclick="G()" class="letter"  style="color:rgb(40, 134, 206);"/>
+    <input type="button" value="H"  onclick="H()" class="letter"  style="color:rgb(133, 31, 222);"/>
+    <input type="button" value="I" style="padding-right:0px; padding-left :20px; margin-left:10px;color:rgb(40, 206, 129);" onclick="I()" class="letter"  />
+    <input type="button" value="J" style="padding-right:0px; padding-left :20px; margin-left:20px;color:rgb(208, 87, 63);"onclick="J()" class="letter"  />
+    <input type="button" value="K" onclick="K()" class="letter"  style="color:rgb(0, 76, 255);"/>
+    <input type="button" value="L" onclick="L()" class="letter"  style="color:rgb(206, 40, 40);"/>
+    <input type="button" value="M" onclick="M()" class="letter" style="color:rgb(152, 92, 61);" />
+    <input type="button" value="N" onclick="N()" class="letter" style="color:rgb(79, 255, 70);" />
+    <input type="button" value="O" onclick="O()" class="letter" style="color:rgb(209, 104, 167);" />
+    <input type="button" value="P" onclick="P()" class="letter" style="color:rgb(40, 178, 206);" />
+    <input type="button" value="Q" onclick="Q()" class="letter" style="color:rgb(232, 214, 12);" />
+    <input type="button" value="R" onclick="R()" class="letter"  style="color:rgb(151, 12, 194);"/>
+    <input type="button" value="S" onclick="S()" class="letter"  style="color:rgb(45, 118, 140);"/>
+    <input type="button" value="T" onclick="T()" class="letter" style="color:rgb(255, 28, 28);" />
+    <input type="button" value="U" onclick="U()" class="letter"  style="color:rgb(142, 90, 255);"/>
+    <input type="button" value="V" onclick="V()" class="letter" style="color:rgb(5, 135, 120);" />
+    <input type="button" value="W" onclick="W()" class="letter"  style="color:rgb(203, 39, 148);"/>
+    <input type="button" value="X" onclick="X()" class="letter" style="color:rgb(40, 129, 206);" />
+    <input type="button" value="Y" onclick="Y()" class="letter"  style="color:rgb(16, 123, 6);"/>
+    <input type="button" value="Z" onclick="Z()" class="letter"  style="color:rgb(175, 177, 2);"/>
+</div>
+<hr>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <style>
+
+        body {
+          background-image: url("LogIn pic.jpg");
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        header{
+            margin-top: 15%;
+            margin-left: 5%;
+            text-align:center;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 55px;
+            color: white;
+        }
+        
+        input{
+            width: 20%;
+            padding: 20px 20px;
+            margin: 15px 0;
+            border: 3px solid #bcabab;
+            
+        }
+
+        section{
+           margin-top: 8% ;
+           margin-right: 5% ;
+           text-align: center;
+        }
+
+        label{
+           color: aliceblue;
+           font-size: 35px;
+        }
+        button {
+        background-color:rgb(255, 255, 255); 
+        font-size: 26px;
+        text-align:center;
+        margin-left: 12% ;
+        margin-top: 5%;
+        margin-bottom: 9%;
+        transition-duration:0.5s; 
+        padding:20px 30px;
+        border-radius: 50px / 50px;
+        border: none;
+        cursor:pointer;
+        font-family:'Times New Roman', Times, serif;
+        color:#157bdb;
+        }
+        hr{ 
+            position:fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            border: 100px;
+            margin:auto;
+            border-top: 10px solid #333;
+        }
+     </style>
+
+     <script>
+        function goToNextPage() {
+            window.location.href = "HomePage.html";  
+        }
+     </script>
+
+</head>
+
+<body>
+
+    <header>
+         <h1>
+            Log In
+         </h1>
+    </header>
+
+    <section>
+        <form  method="GET" autocomplete="on" action="ProjectHomePages.html">
+
+            <br>
+          
+            <label for="Username"> Username: </label>
+            <input type="text" id="Username" name="Username" placeholder="User_Name" required> 
+          
+
+            <br>
+            
+            <label for="pass">Password:</label>
+            <input  type="password" id ="pass" name="pass" placeholder="********" required>
+
+            <br>
+            <button onclick="goToNextPage()"><b>Log in</b></button>
+
+        </form>
+    </section>
+    <hr>
+ 
+    
+</body>
+</html>
